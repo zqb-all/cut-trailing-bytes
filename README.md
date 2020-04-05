@@ -1,6 +1,6 @@
 cut-trailing-bytes
 ==================
-A tool to cut tailing bytes, default cut tailing NULL(0x00 in hex) bytes
+A tool to cut trailing bytes, default cut trailing NULL(0x00 in hex) bytes
 
 # Example
 

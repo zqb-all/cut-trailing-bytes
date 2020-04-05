@@ -11,7 +11,7 @@ fn parse_hex(s: &str) -> Result<u8, ParseIntError> {
 }
 
 #[derive(Debug, StructOpt)]
-#[structopt(name = "cut-tailing-bytes", about = "A tool for cut tailing bytes, default cut tailing NULL bytes(0x00 in hex)")]
+#[structopt(name = "cut-trailing-bytes", about = "A tool for cut trailing bytes, default cut trailing NULL bytes(0x00 in hex)")]
 struct Opt {
     /// File to cut
     #[structopt(parse(from_os_str))]
